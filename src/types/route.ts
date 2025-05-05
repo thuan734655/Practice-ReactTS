@@ -5,3 +5,8 @@ export interface RouteConfig {
   element: JSX.Element;
   protected?: boolean;
 }
+
+export interface ProtectedRouteProps {
+  children: JSX.Element;
+  isAuthenticated: boolean;
+}
