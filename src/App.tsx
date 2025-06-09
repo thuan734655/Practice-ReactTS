@@ -1,4 +1,5 @@
-import { Routes } from 'react-router-dom';
+import { Routes,Route } from 'react-router-dom';
+import HeroSection from './features/heroSection';
 
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div>
         <Routes>
           {/** route  */}
+          <Route path="/" element={<HeroSection />} />
         </Routes>
     </div>
   );
