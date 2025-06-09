@@ -1,9 +1,12 @@
-import React from 'react';
+import { Routes } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-        {/* content */}
+    <div>
+        <Routes>
+          {/** route  */}
+        </Routes>
     </div>
   );
 }
