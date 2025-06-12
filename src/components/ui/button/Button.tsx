@@ -1,12 +1,14 @@
 import { cva, VariantProps } from "class-variance-authority";
 import React, { forwardRef } from "react";
-import { cn } from "src/utils/cn";
+import { cn } from "@/utils/cn";
 
 const buttonVariants = cva(
   "font-bold py-2 px-4 rounded transition-colors duration-300",
   {
     variants: {
       variant: {
+        started_signUp: "font-sans bg-white text-indigo-900 transform hover:scale-110 transition duration-300 ease-in-out",
+        started_signIn: "font-sans border-white text-white hover:bg-white/10 transform hover:scale-110 transition duration-300 ease-in-out",
         filled:
           "border border-transparent bg-black text-white hover:bg-black/90",
         outlined:
