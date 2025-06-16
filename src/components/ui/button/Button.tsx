@@ -3,17 +3,12 @@ import React, { forwardRef } from "react";
 import { cn } from "@/utils/cn";
 
 const buttonVariants = cva(
-  "font-bold py-2 px-4 rounded transition-colors duration-300",
+  "font-sans font-bold py-2 px-4 rounded transition-colors duration-300",
   {
     variants: {
       variant: {
-        started_signUp: "font-sans bg-white text-indigo-900 transform hover:scale-110 transition duration-300 ease-in-out",
-        started_signIn: "font-sans border-white text-white hover:bg-white/10 transform hover:scale-110 transition duration-300 ease-in-out",
-        filled:
-          "border border-transparent bg-black text-white hover:bg-black/90",
-        outlined:
-          "border border-primary bg-white text-primary hover:bg-black/10",
-        ghost: "hover:bg-black/10",
+        started_signUp: "bg-white text-indigo-900 transform hover:scale-110 transition  ease-in-out",
+        started_signIn: " border-white text-white hover:bg-white/10 transform hover:scale-110 transition duration-300 ease-in-out"
       },
       size: {
         sm: "h-8 px-3 text-sm",
@@ -21,11 +16,7 @@ const buttonVariants = cva(
         lg: "h-12 px-8",
         icon: "size-9",
       },
-    },
-    defaultVariants: {
-      variant: "filled",
-      size: "md",
-    },
+    }
   }
 );
 

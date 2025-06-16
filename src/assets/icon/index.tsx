@@ -59,11 +59,11 @@ const icons =  {
 
 type IconApp = {
     name: keyof typeof icons,
-    hight?: number,
+    height?: number,
     width?: number,
 }
 
-export const IconApp = ({ name, hight = 24, width = 24 }: IconApp) => {
+export const IconApp = ({ name, height = 24, width = 24 }: IconApp) => {
     const IconComponent = icons[name];
-    return <IconComponent height={hight} width={width} />;
+    return <IconComponent height={height} width={width} />;
 };
