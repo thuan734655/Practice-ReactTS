@@ -25,10 +25,12 @@ import Setting from './setting.svg?react';
 import TravelPlan from './travel-plan.svg?react';
 import TurqoiColor from './turqoi-color.svg?react';
 import WisteriaColor from './wisteria-color.svg?react';
+import CircleXmark from './circle-xmark.svg?react'
 
 
 const icons =  {
     Arrow,
+    CircleXmark,
     ArrowsExpand,
     BonusIncome,
     Chat,
