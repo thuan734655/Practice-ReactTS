@@ -1,10 +1,16 @@
 {
-    "users": [
-        {
-            "id": "1",
-            "name": "Adrian Tra",
-            "email": "adrian@example.com",
-            "password": "password123"
-        }
-    ]
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "name": "Olivier",
+      "password": "$2a$10$/ITigcm/7nTaqZdlPf8XqObw4n9lLl0f4rXfHgGWNBs2Ixm63YeTi",
+      "id": "UoM2FgX"
+    },
+    {
+      "email": "nan@mail.com",
+      "password": "$2a$10$aeExw6hOXipONxxmid0xVuDXrgF6R2wjikmTYN0UA1.d4LTQ6GH2O",
+      "name": "nan",
+      "id": "wYGmdEV"
+    }
+  ]
 }
